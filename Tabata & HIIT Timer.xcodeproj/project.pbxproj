@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD01EB552907CBCA009626A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01EB542907CBCA009626A2 /* AppDelegate.swift */; };
+		AD01EB572907CBCA009626A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01EB562907CBCA009626A2 /* SceneDelegate.swift */; };
+		AD01EB592907CBCA009626A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01EB582907CBCA009626A2 /* ViewController.swift */; };
+		AD01EB5C2907CBCA009626A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD01EB5A2907CBCA009626A2 /* Main.storyboard */; };
+		AD01EB5E2907CBCC009626A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD01EB5D2907CBCC009626A2 /* Assets.xcassets */; };
+		AD01EB612907CBCC009626A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD01EB5F2907CBCC009626A2 /* LaunchScreen.storyboard */; };
+		AD01EB6C2907CBCD009626A2 /* Tabata___HIIT_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01EB6B2907CBCD009626A2 /* Tabata___HIIT_TimerTests.swift */; };
+		AD01EB762907CBCD009626A2 /* Tabata___HIIT_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01EB752907CBCD009626A2 /* Tabata___HIIT_TimerUITests.swift */; };
+		AD01EB782907CBCD009626A2 /* Tabata___HIIT_TimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01EB772907CBCD009626A2 /* Tabata___HIIT_TimerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD01EB682907CBCD009626A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD01EB492907CBCA009626A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD01EB502907CBCA009626A2;
+			remoteInfo = "Tabata & HIIT Timer";
+		};
+		AD01EB722907CBCD009626A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD01EB492907CBCA009626A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD01EB502907CBCA009626A2;
+			remoteInfo = "Tabata & HIIT Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD01EB512907CBCA009626A2 /* Tabata & HIIT Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tabata & HIIT Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD01EB542907CBCA009626A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD01EB562907CBCA009626A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD01EB582907CBCA009626A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD01EB5B2907CBCA009626A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD01EB5D2907CBCC009626A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD01EB602907CBCC009626A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD01EB622907CBCC009626A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD01EB672907CBCD009626A2 /* Tabata & HIIT TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tabata & HIIT TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD01EB6B2907CBCD009626A2 /* Tabata___HIIT_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tabata___HIIT_TimerTests.swift"; sourceTree = "<group>"; };
+		AD01EB712907CBCD009626A2 /* Tabata & HIIT TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tabata & HIIT TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD01EB752907CBCD009626A2 /* Tabata___HIIT_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tabata___HIIT_TimerUITests.swift"; sourceTree = "<group>"; };
+		AD01EB772907CBCD009626A2 /* Tabata___HIIT_TimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tabata___HIIT_TimerUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD01EB4E2907CBCA009626A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD01EB642907CBCD009626A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD01EB6E2907CBCD009626A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD01EB482907CBCA009626A2 = {
+			isa = PBXGroup;
+			children = (
+				AD01EB532907CBCA009626A2 /* Tabata & HIIT Timer */,
+				AD01EB6A2907CBCD009626A2 /* Tabata & HIIT TimerTests */,
+				AD01EB742907CBCD009626A2 /* Tabata & HIIT TimerUITests */,
+				AD01EB522907CBCA009626A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD01EB522907CBCA009626A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD01EB512907CBCA009626A2 /* Tabata & HIIT Timer.app */,
+				AD01EB672907CBCD009626A2 /* Tabata & HIIT TimerTests.xctest */,
+				AD01EB712907CBCD009626A2 /* Tabata & HIIT TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD01EB532907CBCA009626A2 /* Tabata & HIIT Timer */ = {
+			isa = PBXGroup;
+			children = (
+				AD01EB542907CBCA009626A2 /* AppDelegate.swift */,
+				AD01EB562907CBCA009626A2 /* SceneDelegate.swift */,
+				AD01EB582907CBCA009626A2 /* ViewController.swift */,
+				AD01EB5A2907CBCA009626A2 /* Main.storyboard */,
+				AD01EB5D2907CBCC009626A2 /* Assets.xcassets */,
+				AD01EB5F2907CBCC009626A2 /* LaunchScreen.storyboard */,
+				AD01EB622907CBCC009626A2 /* Info.plist */,
+			);
+			path = "Tabata & HIIT Timer";
+			sourceTree = "<group>";
+		};
+		AD01EB6A2907CBCD009626A2 /* Tabata & HIIT TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD01EB6B2907CBCD009626A2 /* Tabata___HIIT_TimerTests.swift */,
+			);
+			path = "Tabata & HIIT TimerTests";
+			sourceTree = "<group>";
+		};
+		AD01EB742907CBCD009626A2 /* Tabata & HIIT TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD01EB752907CBCD009626A2 /* Tabata___HIIT_TimerUITests.swift */,
+				AD01EB772907CBCD009626A2 /* Tabata___HIIT_TimerUITestsLaunchTests.swift */,
+			);
+			path = "Tabata & HIIT TimerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD01EB502907CBCA009626A2 /* Tabata & HIIT Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD01EB7B2907CBCD009626A2 /* Build configuration list for PBXNativeTarget "Tabata & HIIT Timer" */;
+			buildPhases = (
+				AD01EB4D2907CBCA009626A2 /* Sources */,
+				AD01EB4E2907CBCA009626A2 /* Frameworks */,
+				AD01EB4F2907CBCA009626A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tabata & HIIT Timer";
+			productName = "Tabata & HIIT Timer";
+			productReference = AD01EB512907CBCA009626A2 /* Tabata & HIIT Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD01EB662907CBCD009626A2 /* Tabata & HIIT TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD01EB7E2907CBCD009626A2 /* Build configuration list for PBXNativeTarget "Tabata & HIIT TimerTests" */;
+			buildPhases = (
+				AD01EB632907CBCD009626A2 /* Sources */,
+				AD01EB642907CBCD009626A2 /* Frameworks */,
+				AD01EB652907CBCD009626A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD01EB692907CBCD009626A2 /* PBXTargetDependency */,
+			);
+			name = "Tabata & HIIT TimerTests";
+			productName = "Tabata & HIIT TimerTests";
+			productReference = AD01EB672907CBCD009626A2 /* Tabata & HIIT TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD01EB702907CBCD009626A2 /* Tabata & HIIT TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD01EB812907CBCD009626A2 /* Build configuration list for PBXNativeTarget "Tabata & HIIT TimerUITests" */;
+			buildPhases = (
+				AD01EB6D2907CBCD009626A2 /* Sources */,
+				AD01EB6E2907CBCD009626A2 /* Frameworks */,
+				AD01EB6F2907CBCD009626A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD01EB732907CBCD009626A2 /* PBXTargetDependency */,
+			);
+			name = "Tabata & HIIT TimerUITests";
+			productName = "Tabata & HIIT TimerUITests";
+			productReference = AD01EB712907CBCD009626A2 /* Tabata & HIIT TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD01EB492907CBCA009626A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AD01EB502907CBCA009626A2 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AD01EB662907CBCD009626A2 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AD01EB502907CBCA009626A2;
+					};
+					AD01EB702907CBCD009626A2 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AD01EB502907CBCA009626A2;
+					};
+				};
+			};
+			buildConfigurationList = AD01EB4C2907CBCA009626A2 /* Build configuration list for PBXProject "Tabata & HIIT Timer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD01EB482907CBCA009626A2;
+			productRefGroup = AD01EB522907CBCA009626A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD01EB502907CBCA009626A2 /* Tabata & HIIT Timer */,
+				AD01EB662907CBCD009626A2 /* Tabata & HIIT TimerTests */,
+				AD01EB702907CBCD009626A2 /* Tabata & HIIT TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD01EB4F2907CBCA009626A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD01EB612907CBCC009626A2 /* LaunchScreen.storyboard in Resources */,
+				AD01EB5E2907CBCC009626A2 /* Assets.xcassets in Resources */,
+				AD01EB5C2907CBCA009626A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD01EB652907CBCD009626A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD01EB6F2907CBCD009626A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD01EB4D2907CBCA009626A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD01EB592907CBCA009626A2 /* ViewController.swift in Sources */,
+				AD01EB552907CBCA009626A2 /* AppDelegate.swift in Sources */,
+				AD01EB572907CBCA009626A2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD01EB632907CBCD009626A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD01EB6C2907CBCD009626A2 /* Tabata___HIIT_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD01EB6D2907CBCD009626A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD01EB762907CBCD009626A2 /* Tabata___HIIT_TimerUITests.swift in Sources */,
+				AD01EB782907CBCD009626A2 /* Tabata___HIIT_TimerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD01EB692907CBCD009626A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD01EB502907CBCA009626A2 /* Tabata & HIIT Timer */;
+			targetProxy = AD01EB682907CBCD009626A2 /* PBXContainerItemProxy */;
+		};
+		AD01EB732907CBCD009626A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD01EB502907CBCA009626A2 /* Tabata & HIIT Timer */;
+			targetProxy = AD01EB722907CBCD009626A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD01EB5A2907CBCA009626A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD01EB5B2907CBCA009626A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD01EB5F2907CBCC009626A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD01EB602907CBCC009626A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD01EB792907CBCD009626A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD01EB7A2907CBCD009626A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD01EB7C2907CBCD009626A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9G9R77J9L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tabata & HIIT Timer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "siarhei.ramaniuk-icloud.com.Tabata---HIIT-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD01EB7D2907CBCD009626A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9G9R77J9L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tabata & HIIT Timer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "siarhei.ramaniuk-icloud.com.Tabata---HIIT-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD01EB7F2907CBCD009626A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9G9R77J9L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "siarhei.ramaniuk-icloud.com.Tabata---HIIT-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabata & HIIT Timer.app/Tabata & HIIT Timer";
+			};
+			name = Debug;
+		};
+		AD01EB802907CBCD009626A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9G9R77J9L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "siarhei.ramaniuk-icloud.com.Tabata---HIIT-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabata & HIIT Timer.app/Tabata & HIIT Timer";
+			};
+			name = Release;
+		};
+		AD01EB822907CBCD009626A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9G9R77J9L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "siarhei.ramaniuk-icloud.com.Tabata---HIIT-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tabata & HIIT Timer";
+			};
+			name = Debug;
+		};
+		AD01EB832907CBCD009626A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9G9R77J9L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "siarhei.ramaniuk-icloud.com.Tabata---HIIT-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tabata & HIIT Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD01EB4C2907CBCA009626A2 /* Build configuration list for PBXProject "Tabata & HIIT Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD01EB792907CBCD009626A2 /* Debug */,
+				AD01EB7A2907CBCD009626A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD01EB7B2907CBCD009626A2 /* Build configuration list for PBXNativeTarget "Tabata & HIIT Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD01EB7C2907CBCD009626A2 /* Debug */,
+				AD01EB7D2907CBCD009626A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD01EB7E2907CBCD009626A2 /* Build configuration list for PBXNativeTarget "Tabata & HIIT TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD01EB7F2907CBCD009626A2 /* Debug */,
+				AD01EB802907CBCD009626A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD01EB812907CBCD009626A2 /* Build configuration list for PBXNativeTarget "Tabata & HIIT TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD01EB822907CBCD009626A2 /* Debug */,
+				AD01EB832907CBCD009626A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD01EB492907CBCA009626A2 /* Project object */;
+}
